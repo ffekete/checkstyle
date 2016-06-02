@@ -113,6 +113,8 @@ public class TestServlet extends HttpServlet {
         processRequest(request, response);
     }
 
+	protected int i = 0;
+	
     /**
      * Returns a short description of the servlet.
      *
